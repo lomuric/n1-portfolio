@@ -23,7 +23,7 @@ const Spinner = () => {
                 <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className='face6'>
-                <FontAwesomeIcon icon={faNodeJs} color="#ec4d28" />
+                <FontAwesomeIcon icon={faNodeJs} color="#F0FFFF" />
             </div>
         </div>
     </div>

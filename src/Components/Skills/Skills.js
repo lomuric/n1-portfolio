@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './Skills.scss';
-import CTA from './CTA'
+import CTA from './CTA';
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')

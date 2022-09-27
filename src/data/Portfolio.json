@@ -7,22 +7,22 @@
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
+            "cover": "/portfolio/1/safarinjema.png",
+            "title": "safari njema",
             "description": "Html5, Css3, JavaScript,React",
-            "url": "https://github.com/lomuric/progressbar"
+            "url": "https://github.com/lomuric/safari-njema"
         },
         {
-            "cover": "/portfolio/1/rps1.png",
-            "title": "rockpaper scissors",
-            "description": "Html5, Css3, JavaScript",
-            "url": "https://github.com/lomuric/rock-paper-scissors-game"
+            "cover": "/portfolio/1/twitch.png",
+            "title": "twitch clone",
+            "description": "Html5, Tailwind Css, NextJs",
+            "url": "https://github.com/lomuric/twitch-nextjs"
         },
         {
-            "cover": "/portfolio/1/rps1.png",
-            "title": "rockpaper scissors",
-            "description": "MERN",
-            "url": "https://github.com/lomuric/rock-paper-scissors-game"
+            "cover": "/portfolio/1/weatherapp.png",
+            "title": "weather app",
+            "description": "HTML5, Tailwind Css, NextJs, React",
+            "url": "https://github.com/lomuric/weatherapp"
         },
         {
             "cover": "/portfolio/1/rps1.png",
