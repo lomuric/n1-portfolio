@@ -6,11 +6,11 @@ import LogoSubTitle from '../../assets/images/logo_sub-n.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faBars,
-  faEnvelope,
-  faGears,
-  faHome,
-  faSuitcase,
-  faUser,
+  faComment,
+  faHouseSignal,
+  faKitchenSet,
+  faSitemap,
+  faSmileBeam,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
@@ -30,7 +30,7 @@ const Sidebar = () => {
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faHouseSignal} color="#c0c4c1" />
         </NavLink>
         <NavLink
         onClick={() => setShowNav(false)}
@@ -39,7 +39,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faUser} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faSmileBeam} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -48,7 +48,7 @@ const Sidebar = () => {
           className="skills-link"
           to="/skills"
         >
-          <FontAwesomeIcon icon={faGears} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faKitchenSet} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -57,7 +57,7 @@ const Sidebar = () => {
           className="portfolio-link"
           to="/portfolio"
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faSitemap} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -66,7 +66,7 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faComment} color="#c0c4c1" />
         </NavLink>
       </nav>
       <ul>

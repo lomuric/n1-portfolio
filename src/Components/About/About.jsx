@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
-import './About.scss'
+import './About.scss';
+import Heroimg from '../../../src/assets/images/j.jpg'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -40,6 +41,10 @@ const About = () => {
           I like all aspects of techonology and how it improves our daily lives.
         </p>
       </div>
+      <div className='hero__img'>
+        <img alt='hero__image' src={Heroimg} width='400' height='400' />
+      </div>
+      
     </div>
   )
 }

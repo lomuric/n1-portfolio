@@ -60,7 +60,7 @@ const Home = () => {
             idx={22}
           />
         </h1>
-        <h2>FrontEnd Developer | Network+ Engineer | Security+ </h2>
+        <h2>FrontEnd Developer | N+ Engineer | Cyber Security </h2>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
