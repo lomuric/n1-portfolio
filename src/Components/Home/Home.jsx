@@ -8,7 +8,7 @@ import Spinner from '../Spinner/Spinner';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['j', 'o', 'r', 'o', 'g', 'e']
+  const nameArray = ['j', 'o', 'r', 'o', 'g', 'e','.']
   const jobArray = [
     'W',
     'e',

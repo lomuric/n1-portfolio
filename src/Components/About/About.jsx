@@ -1,20 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
-import './About.scss';
+import './About.scss'
 import Heroimg from '../../../src/assets/images/j.jpg'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
-
-    setTimeout();
+    setTimeout()
   }, [])
 
   const setTimeout = () => {
-    return(
-    setLetterClass('text-animate-hover')
-  , 4000)
+    return setLetterClass('text-animate-hover'), [4000]
   }
   return (
     <div className="container about-page">
@@ -22,15 +19,14 @@ const About = () => {
         <h1>
           <AnimatedLetters
             letterclass={letterClass}
-            strArray={['A', 'B', 'O', 'U', 'T', ' ', 'M', 'E']}
+            strArray={['A', 'B', 'O', 'U', 'T', ' ', 'M', 'E', '.']}
             idx={15}
           />
         </h1>
         <p>
-          I am an ambitious individual who possesses both hard and soft skills
-          that are necessary for the ever changing, dynamic technology industry.
-          I'm quiet confident, naturally curious, and perpetually working on
-          improving my problem solving skills.
+          As a young man my parents suprised me with a brick game and since then
+          life for me was never the same again. As i grew older i got to enjoy
+          the game and my love for technology started developing.
         </p>
         <p>
           i am looking for a role in an established IT company and the
@@ -41,10 +37,9 @@ const About = () => {
           I like all aspects of techonology and how it improves our daily lives.
         </p>
       </div>
-      <div className='hero__img'>
-        <img alt='hero__image' src={Heroimg} width='400' height='400' />
+      <div className="hero__img">
+        <img alt="hero__image" src={Heroimg} width="400" height="400" />
       </div>
-      
     </div>
   )
 }
