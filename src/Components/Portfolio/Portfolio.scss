@@ -4,7 +4,7 @@
     width: calc(100% - 150px);
     position: initial;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
 
     h1.page-title {
         margin-left: 100px;
@@ -76,7 +76,7 @@
         }
         .btn:hover{
             transform: translateY(-3px);
-            background: #ffa900;
+            background: #0e1630;
         }
         &:after {
             content: '';

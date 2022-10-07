@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
-import './Skills.scss';
-import CTA from './CTA';
-import Services from '../Services/Services';
+import './Skills.scss'
+import CTA from './CTA'
+import Services from '../Services/Services'
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -26,20 +26,21 @@ const Skills = () => {
           />
         </h1>
         <p>
-          I am always curious to learn new ways to better my Front end
-          development skills. I am comfortable in using techonologies such as
-          HTML5, CSS3,Tailwind Css, JavaScript, React.js, Node.js, Bootstrap,
-          Git and still learning new technologies to be able to solve problems.
+          I use different aspects of technology in order to ensure that the end
+          user experience is seamless. I would simply define it as using the
+          best ingridients to get a a fine meal.
         </p>
         <p>
-          I am determined, i put effort in optimizing my code and providing the
-          best user experience. I can comfortably work alone and collobarated
-          with other team members to ensure committment in all project aspects.
+          With research and continously learning new programming languages and
+          frameworls. I am able to maintain current projects and also build
+          future projects, this will ensure great user experience and maximise
+          productivity.
         </p>
         <CTA />
-        
       </div>
-      <Services />
+      <div>
+        <Services />
+      </div>
     </div>
   )
 }

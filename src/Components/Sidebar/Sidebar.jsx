@@ -6,6 +6,7 @@ import LogoSubTitle from '../../assets/images/logo_sub-n.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faBars,
+  faClose,
   faComment,
   faHouseSignal,
   faKitchenSet,
@@ -33,7 +34,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faHouseSignal} color="#c0c4c1" />
         </NavLink>
         <NavLink
-        onClick={() => setShowNav(false)}
+          onClick={() => setShowNav(false)}
           exact="true"
           activeclassname="active"
           className="about-link"
@@ -68,6 +69,12 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faComment} color="#c0c4c1" />
         </NavLink>
+        <FontAwesomeIcon
+        onClick={() => setShowNav(false)}
+        icon={faClose}
+        color='#ffa900'
+        size='3x'
+        className='close-icon'/>
       </nav>
       <ul>
         <li>

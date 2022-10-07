@@ -1,5 +1,5 @@
-import React from 'react'
-import { signInWithGoogle } from '../../firebase'
+import React from 'react';
+import { signInWithGoogle } from '../../firebase';
 
 const Login = () => {
   return (

@@ -8,17 +8,17 @@ const Services = () => {
       <span className=''>
         <Typewriter
           loop
-          cursor
+          cursor="|"
           cursorStyle="|"
-          typeSpeed={40}
+          typeSpeed={50}
           deleteSpeed={60}
           delaySpeed={1000}
           words={[
-            'Frontend Developer.',
-            'App Development.',
-            'Web Development.',
-            'Networking',
-            'Cyber Security',
+            'Problem solver.',
+            'Execellent communication skills.',
+            'Research alot.',
+            'Creative.',
+            'Detail oriented.',
           ]}
         />
       </span>

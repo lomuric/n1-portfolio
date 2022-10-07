@@ -6,12 +6,13 @@ import Heroimg from '../../../src/assets/images/j.jpg'
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
+
   useEffect(() => {
     setTimeout()
   }, [])
 
   const setTimeout = () => {
-    return setLetterClass('text-animate-hover'), [4000]
+    return( setLetterClass('text-animate-hover'), 4000)
   }
   return (
     <div className="container about-page">
@@ -19,7 +20,7 @@ const About = () => {
         <h1>
           <AnimatedLetters
             letterclass={letterClass}
-            strArray={['A', 'B', 'O', 'U', 'T', ' ', 'M', 'E', '.']}
+            strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e', '.']}
             idx={15}
           />
         </h1>
@@ -38,7 +39,7 @@ const About = () => {
         </p>
       </div>
       <div className="hero__img">
-        <img alt="hero__image" src={Heroimg} width="400" height="400" />
+          <img alt="hero__image" src={Heroimg} width="400" height="400" />
       </div>
     </div>
   )
