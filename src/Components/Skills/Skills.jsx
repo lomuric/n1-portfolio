@@ -27,14 +27,17 @@ const Skills = () => {
         </h1>
         <p>
           I use different aspects of technology in order to ensure that the end
-          user experience is seamless. I would simply define it as using the
+          user experience is seamless. I would simply describe it as using the
           best ingridients to get a a fine meal.
         </p>
         <p>
-          With research and continously learning new programming languages and
+          Through research and continous learning  of new programming languages and
           frameworls. I am able to maintain current projects and also build
           future projects, this will ensure great user experience and maximise
           productivity.
+        </p>
+        <p>
+          Through intergration of different frameworks, various API's and writing clean readble code, i believe that the final product will be well suited for the user.
         </p>
         <CTA />
       </div>

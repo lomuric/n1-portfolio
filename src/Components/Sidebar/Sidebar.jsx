@@ -6,12 +6,12 @@ import LogoSubTitle from '../../assets/images/logo_sub-n.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faBars,
+  faBuildingUser,
   faClose,
   faComment,
-  faHouseSignal,
-  faKitchenSet,
-  faSitemap,
-  faSmileBeam,
+  faLuggageCart,
+  faPersonCircleQuestion,
+  faPersonDigging,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
@@ -31,7 +31,7 @@ const Sidebar = () => {
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faHouseSignal} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faBuildingUser} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -40,7 +40,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faSmileBeam} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faPersonCircleQuestion} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -49,7 +49,7 @@ const Sidebar = () => {
           className="skills-link"
           to="/skills"
         >
-          <FontAwesomeIcon icon={faKitchenSet} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faPersonDigging} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -58,7 +58,7 @@ const Sidebar = () => {
           className="portfolio-link"
           to="/portfolio"
         >
-          <FontAwesomeIcon icon={faSitemap} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faLuggageCart} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -87,7 +87,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://twitter.com/home">
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/lomuric">
             <FontAwesomeIcon icon={faTwitch} color="#c0c4c1" />
           </a>
         </li>
@@ -105,7 +105,7 @@ const Sidebar = () => {
         onClick={() => setShowNav(true)}
         icon={faBars}
         color="#ffa900"
-        size="3x"
+        size="5x"
         className="hamburger-icon"
       />
     </div>

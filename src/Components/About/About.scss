@@ -1,11 +1,11 @@
 .hero__img {
-  height: 95%;
-  width: 58%;
+  height: 93%;
+  width: 55%;
   display: block;
   position: relative;
   z-index: 9;
-  top: 6%;
-  margin-left: 50%;
+  top: 3%;
+  margin-left: 55%;
   animation: fadeIn 1.5 1s;
   animation: both;
   animation-fill-mode: forwards;
@@ -13,8 +13,8 @@
   
 }
 .hero__img img {
-  width: 58%;
-  height: 95%;
+  width: 55%;
+  height: 93%;
   border-radius: 50px 50px 50px 50px;
   border: 2px solid #ffa900;
   filter: blur(0px);

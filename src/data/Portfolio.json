@@ -1,51 +1,63 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/rock paper scissors.png",
+            "cover": "/portfolio/1/ferb.png",
+            "title": "ferb",
+            "description": "CSS Drawing",
+            "url": "https://github.com/lomuric/ferb"
+        },
+        {
+            "cover": "/portfolio/1/homer.png",
+            "title": "homer",
+            "description": "CSS Drawing",
+            "url": "https://github.com/lomuric/homer"
+        },
+        {
+            "cover": "/portfolio/1/rock paper scissors 2.png",
             "title": "rockpaper scissors",
-            "description": "Html, Css, JavaScript",
+            "description": "Javascript Game",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
-            "cover": "/portfolio/1/breakout.png",
-            "title": "breakout-game",
-            "description": "Html, Css, JavaScript",
+            "cover": "/portfolio/1/breakout2.png",
+            "title": "breakout",
+            "description": "JavaScript-Game",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
-            "cover": "/portfolio/1/space invaders.png",
+            "cover": "/portfolio/1/space invaders 2.png",
             "title": "space invaders",
-            "description": "Html, Css, JavaScript",
-            "url": "https://github.com/lomuric/rock-paper-scissors-game"
+            "description": "JavaScript-Gmae",
+            "url": "https://github.com/lomuric/space-invaders"
         },
         {
-            "cover": "/portfolio/1/analog clock.png",
-            "title": "analog digital clock",
-            "description": "Html, Css, JavaScript",
-            "url": "https://github.com/lomuric/rock-paper-scissors-game"
+            "cover": "/portfolio/1/analog clock 2.png",
+            "title": "clock",
+            "description": "HTML/CSS Clock",
+            "url": "https://github.com/lomuric/Analog-Digital-Clock"
         },
         {
-            "cover": "/portfolio/1/progressbar.png",
+            "cover": "/portfolio/1/progressbar2.png",
             "title": "progress bar",
-            "description": "Html, Css, JavaScript",
-            "url": "https://github.com/lomuric/rock-paper-scissors-game"
+            "description": "Html, Css",
+            "url": "https://github.com/lomuric/progressbar"
         },
         {
             "cover": "/portfolio/1/safarinjema.png",
-            "title": "safari  website",
-            "description": "Html5, Css3, JavaScript,React",
+            "title": "safari website",
+            "description": "TailWind CSS,React",
             "url": "https://github.com/lomuric/safari-njema"
         },
         {
-            "cover": "/portfolio/1/twitch.png",
-            "title": "twitch clone",
+            "cover": "/portfolio/1/twitch1.png",
+            "title": "twitch-clone",
             "description": "Html5, Tailwind Css, NextJs",
             "url": "https://github.com/lomuric/twitch-nextjs"
         },
         {
             "cover": "/portfolio/1/weatherapp.png",
-            "title": "weather app",
-            "description": "HTML5, Tailwind Css, NextJs, React",
+            "title": "weather-app",
+            "description": "JavaScript, GeoCities Api",
             "url": "https://github.com/lomuric/weatherapp"
         },
         {
@@ -59,6 +71,12 @@
             "title": "car rental website",
             "description": "JavaScript, Nextjs, tailwind css,  reactjs",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
+        },
+        {
+            "cover": "/portfolio/1/youtube.png",
+            "title": "Youtube-Clone",
+            "description": "Reactjs, YoutuV3 Api",
+            "url": "https://github.com/lomuric/youtube-clone"
         }
     ]
 }
