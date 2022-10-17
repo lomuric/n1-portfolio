@@ -19,6 +19,7 @@ const Services = () => {
             'Research alot.',
             'Creative.',
             'Detail oriented.',
+            'Version Control.',
           ]}
         />
       </span>

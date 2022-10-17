@@ -6,19 +6,13 @@
   z-index: 9;
   top: 3%;
   margin-left: 55%;
-  animation: fadeIn 1.5 1s;
-  animation: both;
-  animation-fill-mode: forwards;
-  filter: blur(0px);
-  
+  animation: fadeInUp 2s;
 }
 .hero__img img {
   width: 55%;
   height: 93%;
   border-radius: 50px 50px 50px 50px;
   border: 2px solid #ffa900;
-  filter: blur(0px);
-  
 }
 
 @media screen and (max-width: 1200px) {

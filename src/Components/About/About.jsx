@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './About.scss'
 import Heroimg from '../../../src/assets/images/j.jpg'
-import { Bounce } from 'react-awesome-reveal'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -39,9 +38,7 @@ const About = () => {
         </p>
       </div>
       <div className="hero__img">
-        <Bounce delay={1100} duration={1100}>
           <img alt="hero__image" src={Heroimg} width="400" height="400" />
-        </Bounce>
       </div>
     </div>
   )
