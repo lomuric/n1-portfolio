@@ -19,7 +19,8 @@ const Services = () => {
             'Research alot.',
             'Creative.',
             'Detail oriented.',
-            'Version Control.',
+            'Source control.',
+            'Logical thinker.',
           ]}
         />
       </span>
