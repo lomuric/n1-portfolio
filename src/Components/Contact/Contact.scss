@@ -61,12 +61,14 @@
     padding: 8px 10px;
     border: 1px solid #ffa900;
     float: right;
-    border-radius: 4px;
+    border-radius: 50px 50px 50px 50px;;
   }
 }
 .info-map {
   position: absolute;
   background-color: #000;
+  border-radius: 20px 20px 20px 20px;
+  border:1px solid #ffa900;
   top: 30%;
   margin-left: 50%;
   z-index: 99999;

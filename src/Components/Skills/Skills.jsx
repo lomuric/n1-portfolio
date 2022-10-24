@@ -21,7 +21,7 @@ const Skills = () => {
         <h1>
           <AnimatedLetters
             letterclass={letterClass}
-            strArray={'Skills & Experience'.split('')}
+            strArray={'Skills & Experience.'.split('')}
             idx={10}
           />
         </h1>
