@@ -1,4 +1,4 @@
-import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Spinner.scss'
@@ -8,13 +8,13 @@ const Spinner = () => {
     <div className='stage-cube-cont'>
         <div className='cubespinner'>
             <div className='face1'>
-                <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                <FontAwesomeIcon icon={faHtml5} color="#f06529 " />
             </div>
             <div className='face2'>
-                <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                <FontAwesomeIcon icon={faCss3} color="#2965f19" />
             </div>
             <div className='face3'>
-                <FontAwesomeIcon icon={faGitAlt} color="#ec4d28" />
+                <FontAwesomeIcon icon={faGitAlt} color="#171515" />
             </div>
             <div className='face4'>
                 <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
@@ -23,7 +23,7 @@ const Spinner = () => {
                 <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className='face6'>
-                <FontAwesomeIcon icon={faNodeJs} color="#F0FFFF" />
+                <FontAwesomeIcon icon={faAngular} color="#dd1b16 " />
             </div>
         </div>
     </div>

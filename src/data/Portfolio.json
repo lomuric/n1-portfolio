@@ -77,6 +77,12 @@
             "title": "Youtube-Clone",
             "description": "Reactjs, YoutuV3 Api",
             "url": "https://github.com/lomuric/youtube-clone"
+        },
+        {
+            "cover": "/portfolio/1/lomuri duka.png",
+            "title": "lomuri duka",
+            "description": "angular, typescript, fake store Api",
+            "url": "https://github.com/lomuric/duka"
         }
     ]
 }
