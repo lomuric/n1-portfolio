@@ -11,7 +11,7 @@ const About = () => {
   }, [])
 
   const setTimeout = () => {
-    return (setLetterClass('text-animate-hover'), 4000)
+    return setLetterClass('text-animate-hover'), 4000
   }
   return (
     <div className="container about-page">
@@ -24,21 +24,33 @@ const About = () => {
           />
         </h1>
         <p>
-          As a young man my parents suprised me with a brick game and since then
-          life for me was never the same again. As i grew older i got to enjoy
-          the game and my love for technology started developing.
+          I am a highly skilled and motivated individual with a strong passion
+          for creating intuitive and visually appealing websites, web
+          applications and engaging user experiences. I have consistently
+          delivered high-quality projects on time and have consistently received
+          positive feedback. I am confident in my ability to contribute to your
+          team and help drive the success of your projects.
         </p>
         <p>
-          I am looking for a role in an IT department and the opportunity to
-          work with the latest technologies and colleagues on challenging and
-          diverse projects.
+          I am skilled in responsive web design, I am highly detail-oriented and
+          able to work efficiently to meet deadlines and deliver high-quality
+          work. I have contributed to the development and maintenance of various
+          websites and web applications and have consistently received positive
+          feedback for my problem-solving skills and ability to communicate
+          effectively with both technical and non-technical team members. I am
+          eager to continue learning and growing as a front-end developer and
+          excited to bring my skills and expertise to a new team.
         </p>
         <p>
-          I like all aspects of techonology and how it improves our daily lives.
+          I am also a strong collaborator, able to work effectively with
+          designers, back-end developers, and project managers to bring projects
+          to fruition. In addition to my technical skills, I have excellent
+          communication and problem-solving abilities, making me a valuable
+          asset to any development team.
         </p>
       </div>
       <div className="hero__img">
-          <img alt="hero__image" src={Heroimg} width="400" height="400" />
+        <img alt="hero__image" src={Heroimg} width="400" height="400" />
       </div>
     </div>
   )
