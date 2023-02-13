@@ -1,87 +1,99 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/ferb.png",
-            "title": "ferb",
-            "description": "CSS Drawing",
+            "cover": "/portfolio/1/form.png",
+            "title": "Multi-Sign Form",
+            "description": "HTML,CSS,JavaScript",
             "url": "https://github.com/lomuric/ferb"
         },
         {
-            "cover": "/portfolio/1/homer.png",
-            "title": "homer",
-            "description": "CSS Drawing",
+            "cover": "/portfolio/1/tip.png",
+            "title": "Tip Calculator",
+            "description": "HTML,CSS,JavaScript",
             "url": "https://github.com/lomuric/homer"
         },
         {
-            "cover": "/portfolio/1/rock paper scissors 2.png",
-            "title": "rockpaper scissors",
-            "description": "Javascript Game",
+            "cover": "/portfolio/1/copy.png",
+            "title": "Click to Copy",
+            "description": "HTML,CSS,JavaScript",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
-            "cover": "/portfolio/1/breakout2.png",
-            "title": "breakout",
-            "description": "JavaScript-Game",
+            "cover": "/portfolio/1/hex.png",
+            "title": "Random Hex Generator",
+            "description": "HTML,CSS,JavaScript",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
-            "cover": "/portfolio/1/space invaders 2.png",
-            "title": "space invaders",
-            "description": "JavaScript-Gmae",
+            "cover": "/portfolio/1/password.png",
+            "title": "Password Generator",
+            "description": "HTML,CSS,JavaScript",
+            "url": "https://github.com/lomuric/space-invaders"
+        },
+        {
+            "cover": "/portfolio/1/qr.png",
+            "title": "Qr Code Generator",
+            "description": "HTML,CSS,JavaScript",
             "url": "https://github.com/lomuric/space-invaders"
         },
         {
             "cover": "/portfolio/1/analog clock 2.png",
-            "title": "clock",
+            "title": "Analog Clock",
             "description": "HTML/CSS Clock",
             "url": "https://github.com/lomuric/Analog-Digital-Clock"
         },
         {
-            "cover": "/portfolio/1/progressbar2.png",
-            "title": "progress bar",
-            "description": "Html, Css",
+            "cover": "/portfolio/1/batt.png",
+            "title": "Battery Indicator",
+            "description": "HTML,CSS,JavaScript",
+            "url": "https://github.com/lomuric/progressbar"
+        },
+        {
+            "cover": "/portfolio/1/text.png",
+            "title": "Text Animation",
+            "description": "HTML,CSS,JavaScript",
             "url": "https://github.com/lomuric/progressbar"
         },
         {
             "cover": "/portfolio/1/safarinjema.png",
-            "title": "safari website",
-            "description": "TailWind CSS,React",
+            "title": "Safari Website",
+            "description": "TailWind CSS,Reactjs",
             "url": "https://github.com/lomuric/safari-njema"
         },
         {
             "cover": "/portfolio/1/twitch1.png",
-            "title": "twitch-clone",
-            "description": "Html5, Tailwind Css, NextJs",
+            "title": "Twitch Clone",
+            "description": "HTML, Tailwind Css, NextJs",
             "url": "https://github.com/lomuric/twitch-nextjs"
         },
         {
             "cover": "/portfolio/1/weatherapp.png",
-            "title": "weather-app",
-            "description": "JavaScript, GeoCities Api",
+            "title": "Weather Site",
+            "description": "GeoCities Api, ReactJs, CSS",
             "url": "https://github.com/lomuric/weatherapp"
         },
         {
             "cover": "/portfolio/1/lyrics.png",
-            "title": "music and lyrics app",
-            "description": "nodejs, tailwind css, rapidApi,shazam ApI",
+            "title": "Music and Lyrics",
+            "description": "RapidApi,Shazam API, Tailwind, ReactJs",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
             "cover": "/portfolio/1/car rental.png",
-            "title": "car rental website",
-            "description": "JavaScript, Nextjs, tailwind css,  reactjs",
+            "title": "Car Rental Site",
+            "description": "ReactJs, CSS",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
             "cover": "/portfolio/1/youtube.png",
-            "title": "Youtube-Clone",
-            "description": "Reactjs, YoutuV3 Api",
+            "title": "YouTube-Clone",
+            "description": "Reactjs, YoutuV3 API",
             "url": "https://github.com/lomuric/youtube-clone"
         },
         {
             "cover": "/portfolio/1/lomuri duka.png",
             "title": "lomuri duka",
-            "description": "angular, typescript, fake store Api",
+            "description": "Angular, TypeScript, Fake Store Api",
             "url": "https://github.com/lomuric/duka"
         }
     ]
