@@ -6,11 +6,11 @@ import LogoSubTitle from '../../assets/images/logo_sub-n.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faBars,
-  faBuildingUser,
+  faBriefcase,
   faClose,
   faComment,
-  faLuggageCart,
-  faPersonCircleQuestion,
+  faHome,
+  faPerson,
   faPersonDigging,
 } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -31,7 +31,7 @@ const Sidebar = () => {
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faBuildingUser} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faHome} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -40,7 +40,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faPersonCircleQuestion} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faPerson} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -58,7 +58,7 @@ const Sidebar = () => {
           className="portfolio-link"
           to="/portfolio"
         >
-          <FontAwesomeIcon icon={faLuggageCart} color="#c0c4c1" />
+          <FontAwesomeIcon icon={faBriefcase} color="#c0c4c1" />
         </NavLink>
         <NavLink
           onClick={() => setShowNav(false)}
@@ -70,11 +70,12 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faComment} color="#c0c4c1" />
         </NavLink>
         <FontAwesomeIcon
-        onClick={() => setShowNav(false)}
-        icon={faClose}
-        color='#ffa900'
-        size='3x'
-        className='close-icon'/>
+          onClick={() => setShowNav(false)}
+          icon={faClose}
+          color="#ffa900"
+          size="3x"
+          className="close-icon"
+        />
       </nav>
       <ul>
         <li>
@@ -87,7 +88,11 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://twitter.com/lomuric">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/lomuric"
+          >
             <FontAwesomeIcon icon={faTwitch} color="#c0c4c1" />
           </a>
         </li>
