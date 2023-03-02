@@ -55,6 +55,24 @@
             "url": "https://github.com/lomuric/progressbar"
         },
         {
+            "cover": "/portfolio/1/3d.png",
+            "title": "3D Rotating Animation",
+            "description": "HTML,CSS,JavaScript",
+            "url": "https://github.com/lomuric/progressbar"
+        },
+        {
+            "cover": "/portfolio/1/art.png",
+            "title": "Random Art Generator",
+            "description": "HTML,CSS,JavaScript",
+            "url": "https://github.com/lomuric/progressbar"
+        },
+        {
+            "cover": "/portfolio/1/pong.png",
+            "title": "Random Art Generator",
+            "description": "HTML,CSS,JavaScript",
+            "url": "https://github.com/lomuric/progressbar"
+        },
+        {
             "cover": "/portfolio/1/safarinjema.png",
             "title": "Safari Website",
             "description": "TailWind CSS,Reactjs",

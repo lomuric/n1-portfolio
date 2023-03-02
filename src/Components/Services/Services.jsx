@@ -5,7 +5,7 @@ import './Services.scss'
 const Services = () => {
   return (
     <div className="title">
-      <span className=''>
+      <span className="">
         <Typewriter
           loop
           cursor="|"
