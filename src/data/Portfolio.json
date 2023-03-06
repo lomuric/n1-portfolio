@@ -91,20 +91,26 @@
             "url": "https://github.com/lomuric/weatherapp"
         },
         {
+            "cover": "/portfolio/1/hang.png",
+            "title": "HangMan",
+            "description": "ReactJs, CSS",
+            "url": "https://github.com/lomuric/hangman"
+        },
+        {
             "cover": "/portfolio/1/lyrics.png",
-            "title": "Music and Lyrics",
-            "description": "RapidApi,Shazam API, Tailwind, ReactJs",
+            "title": "Music lyrics",
+            "description": "RapidApi Client,Shazam API, Tailwind, ReactJs",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
             "cover": "/portfolio/1/car rental.png",
-            "title": "Car Rental Site",
+            "title": "Car Rental",
             "description": "ReactJs, CSS",
             "url": "https://github.com/lomuric/rock-paper-scissors-game"
         },
         {
             "cover": "/portfolio/1/youtube.png",
-            "title": "YouTube-Clone",
+            "title": "YouTube Clone",
             "description": "Reactjs, YoutuV3 API",
             "url": "https://github.com/lomuric/youtube-clone"
         },
