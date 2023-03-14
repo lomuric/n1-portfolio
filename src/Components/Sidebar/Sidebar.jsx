@@ -13,11 +13,7 @@ import {
   faPerson,
   faPersonDigging,
 } from '@fortawesome/free-solid-svg-icons'
-import {
-  faGithub,
-  faLinkedin,
-  faTwitch,
-} from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false)
@@ -87,15 +83,7 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faLinkedin} color="#c0c4c1" />
           </a>
         </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://twitter.com/lomuric"
-          >
-            <FontAwesomeIcon icon={faTwitch} color="#c0c4c1" />
-          </a>
-        </li>
+        <li></li>
         <li>
           <a
             target="_blank"
