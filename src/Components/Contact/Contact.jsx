@@ -14,7 +14,7 @@ const Contact = () => {
   }, [])
 
   const setTimeout = () => {
-    return(setLetterClass('text-animate-hover'), 3000)
+    return setLetterClass('text-animate-hover'), 3000
   }
 
   const sendEmail = (e) => {
@@ -91,7 +91,6 @@ const Contact = () => {
         <br />
         Devon, United Kingdom.
         <br />
-        <span>lomuricodes@gmail.com</span>
       </div>
     </div>
   )

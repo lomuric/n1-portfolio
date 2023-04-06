@@ -49,6 +49,12 @@
             "url": "https://github.com/lomuric/progressbar"
         },
         {
+            "cover": "/portfolio/1/gradient.png",
+            "title": "Random Color Generator",
+            "description": "HTML,CSS,JavaScript",
+            "url": "https://github.com/lomuric/progressbar"
+        },
+        {
             "cover": "/portfolio/1/text.png",
             "title": "Text Animation",
             "description": "HTML,CSS,JavaScript",
@@ -118,6 +124,12 @@
             "cover": "/portfolio/1/lomuri duka.png",
             "title": "lomuri duka",
             "description": "Angular, TypeScript, Fake Store Api",
+            "url": "https://github.com/lomuric/duka"
+        },
+        {
+            "cover": "/portfolio/1/exec.png",
+            "title": "Keyword Extractor ",
+            "description": "React + Vite, OpenAI ",
             "url": "https://github.com/lomuric/duka"
         }
     ]
