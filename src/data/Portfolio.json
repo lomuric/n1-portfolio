@@ -67,6 +67,12 @@
             "url": "https://github.com/lomuric/progressbar"
         },
         {
+            "cover": "/portfolio/1/glass.png",
+            "title": "Glassmorphism Button Animation",
+            "description": "HTML,CSS,SVG",
+            "url": "https://github.com/lomuric/progressbar"
+        },
+        {
             "cover": "/portfolio/1/art.png",
             "title": "Random Art Generator",
             "description": "HTML,CSS,JavaScript",
