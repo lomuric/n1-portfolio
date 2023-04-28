@@ -72,6 +72,12 @@
             "description": "HTML,CSS,SVG",
             "url": "https://github.com/lomuric/progressbar"
         },
+           {
+            "cover": "/portfolio/1/sprite.png",
+            "title": "Glassmorphism Product Card",
+            "description": "HTML,CSS,ANIMATIONS",
+            "url": "https://github.com/lomuric/progressbar"
+        },
         {
             "cover": "/portfolio/1/art.png",
             "title": "Random Art Generator",
